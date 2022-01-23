@@ -12,6 +12,8 @@ RUN apt update && \
 USER container
 ENV  USER container
 ENV  HOME /home/container
+ENV LANG=en_US.UTF-8
+ENV LC_ALL=en_US.UTF-8
 
 WORKDIR /home/container
 
